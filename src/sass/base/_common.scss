@@ -1,0 +1,14 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--project-bacground);
+    color: #fff;
+}
+
+.link {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}

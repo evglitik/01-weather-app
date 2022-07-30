@@ -1,0 +1,17 @@
+.container {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    margin: 0px auto;
+
+    @include mobail {
+        width: 480px;
+    }
+    @include tablet {
+        width: 768px;
+    }
+    @include desc {
+        width: 1200px;
+    }
+}

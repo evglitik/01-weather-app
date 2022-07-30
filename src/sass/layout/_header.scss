@@ -1,0 +1,38 @@
+.header {
+    padding-top: 17px;
+    padding-bottom: 22px;
+    border-bottom: 1px solid var(--header-border);
+}
+
+.form-location {
+    text-align: center;
+}
+
+.form-location__input {
+  height: 30px;
+  width: 250px;
+  color: rgb(6, 77, 55);
+  font-size: 18px;
+}
+
+.form-lovation__btn-submit {
+  height: 28px;
+  width: 29px;
+  cursor: pointer;
+  background-color: var(--btn-submit);
+  border: none;
+  margin-left: -35px;
+  border-radius: 1px;
+}
+
+.form-location__input:focus-visible + .form-lovation__btn-submit {
+  height: 25px;
+}
+
+// .mobail__hidden {
+//   background-color: #3542510c;
+//   opacity: 0;
+//   pointer-events: none;
+//   visibility: hidden;
+//   transform: translateX(-100%);
+// }
